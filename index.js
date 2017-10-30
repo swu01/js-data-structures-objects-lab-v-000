@@ -3,5 +3,5 @@ const driver = {}
 
 function updatedriverWithKeyAndValue(driver, key, value) {
   const newDriver = Object.assign({}, driver);
-  return Object.assign(newDriver, {[key], value});
+  return Object.assign(newDriver, {[key]: value});
 }
